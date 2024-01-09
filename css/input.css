@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calculator-button {
+    @apply bg-gray-400 border border-gray-600 rounded-xl hover:bg-gray-500;
+}
+
+.disk {
+    @apply h-10 rounded-full mx-auto my-1 border-2 border-black cursor-pointer;
+}
+
+.reset {
+    @apply mr-32 bg-gray-300 text-sm border border-black px-5 py-1 cursor-pointer rounded-2xl hover:bg-green-400;
+}

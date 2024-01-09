@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="bg-lightblue font-bold font-arial">
+    
+    <header class="text-center text-3xl mt-8">
+        <h1>Calculator</h1>
+    </header>
+
+    <main class="w-400px h-400px bg-gray-600 rounded-2xl mx-auto mt-4 p-4 text-center">
+
+        <div class="bg-gray-800 py-1 px-2 rounded-xl text-right text-white text-6xl font-normal h-16" id="display">0</div>
+
+        <div class="grid grid-cols-4 grid-rows-5 gap-2 h-250px mt-6 text-xl">
+
+            <button class="col-span-2 calculator-button" onclick="clearDisplay()">c</button>
+            <button class="calculator-button" onclick="addToDisplay('/')">/</button>
+            <button class="calculator-button" onclick="addToDisplay('*')">x</button>
+            <button class="calculator-button" onclick="addToDisplay('7')">7</button>
+            <button class="calculator-button" onclick="addToDisplay('8')">8</button>
+            <button class="calculator-button" onclick="addToDisplay('9')">9</button>
+            <button class="calculator-button" onclick="addToDisplay('-')">-</button>
+            <button class="calculator-button" onclick="addToDisplay('4')">4</button>
+            <button class="calculator-button" onclick="addToDisplay('5')">5</button>
+            <button class="calculator-button" onclick="addToDisplay('6')">6</button>
+            <button class="calculator-button" onclick="addToDisplay('+')">+</button>
+            <button class="calculator-button" onclick="addToDisplay('1')">1</button>
+            <button class="calculator-button" onclick="addToDisplay('2')">2</button>
+            <button class="calculator-button" onclick="addToDisplay('3')">3</button>
+            <button class="row-span-2 calculator-button" onclick="calculateResult()">=</button>
+            <button class="col-span-2 calculator-button" onclick="addToDisplay('0')">0</button>
+            <button class="calculator-button" onclick="addToDisplay(',')">,</button>
+
+        </div>
+
+    </main>
+    
+    <footer class="text-center mt-6 font-cambria italic text-lg">
+        <p>&copy;PabloQuirino</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
