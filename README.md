@@ -1,2 +1,2 @@
 # calculator
- Minha primeira calculadora com javascript
+ Este projeto é minha primeira calculadora com Javascript
