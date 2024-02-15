@@ -8,7 +8,7 @@
  - Javascript
 
  ### Veja o site aqui:
- https://pabloquirino.github.io/calculator/src/
+https://pabloquirino.github.io/Calculator/src/
 
 ### Captura de tela:
  ![PrintScreen do projeto](./img.readme/amazon.png) 
