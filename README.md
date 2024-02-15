@@ -11,5 +11,5 @@
 https://pabloquirino.github.io/Calculator/src/
 
 ### Captura de tela:
- ![PrintScreen do projeto](./img.readme/amazon.png) 
+ ![PrintScreen do projeto](./img-calculadora/calculadora.png) 
 
