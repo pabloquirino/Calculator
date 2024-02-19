@@ -1,5 +1,5 @@
 # Calculadora
- Esse projeto é minha primeira calculadora para praticar conceitos básicos de Javascript, por exemplo, utilizar onclick para adicionar funções com parâmetros(números, funções e propriedades da calculadora), try-catch, método eval() e if/else.
+ Esse projeto é minha primeira calculadora para praticar conceitos básicos de Javascript, por exemplo, utilizar onclick para adicionar funções com parâmetros(números, funções e propriedades da calculadora), tratamento de erro com try-catche e método eval() para efetuar operações.
  
  ### Tecnologias utilizadas:
 
